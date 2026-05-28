@@ -1,118 +1,185 @@
-# 📂 Projecte 4 – EverPia 3: “Sobreviure en una empresa IT”
+# 📁 Projecte 04 – EverPia 3: El desafiament final
 
-## 📄 Breu descripció
-Aquest projecte representa la **darrera etapa** del nostre període de pràctiques internes a EverPia, on hem treballat com a juniors IT durant tot el trimestre. Després de setmanes immersos en el ritme intens i imprevisible d’una consultora tecnològica, aquest projecte és la nostra oportunitat per **demostrar tot el que hem après** i preparar-nos per la nostra trajectòria professional.
+Benvingut al quart i últim projecte de la trilogia **EverPia**. Després de setmanes convivint amb el ritme imprevisible d’una consultora tecnològica, arriba el moment de demostrar tot el que hem après. Ja no som els juniors que van entrar per la porta amb por i il·lusió: ara tenim eines, criteri, documentació pròpia i una manera de mirar els problemes que només es guanya treballant molt i en silenci.
 
-Durant quatre setmanes, hem hagut de donar resposta a **encàrrecs reals** dins l’ecosistema empresarial d’EverPia: gestió d’emergències, millora de processos, automatització de sistemes, administració de repositoris, implementació de serveis d’accés remot i desplegament de solucions de disseny i comerç electrònic. L’objectiu ha estat assumir, amb autonomia progressiva, rols i responsabilitats similars als d’una empresa tecnològica de mida petita o mitjana.
+> *“Aquesta intensitat et fa créixer. Aquesta pressió et defineix. Aquesta experiència accelerada et converteix en professional.”*
 
-## 🎯 Objectius generals
-El projecte integra tots els mòduls previs i sintetitza les experiències viscudes en projectes anteriors. Els objectius que hem perseguit com a equip han estat:
-
-1. **Integrar coneixements tècnics en un context professional realista**  
-   Coordinació de seguretat, sistemes operatius en xarxa, serveis de xarxa i aplicacions web.
-
-2. **Dominar processos de backup i recuperació**  
-   Creació, validació i restauració d’imatges completes de sistemes operatius amb eines professionals.
-
-3. **Desplegar serveis IT corporatius**  
-   Configuració de NFS, CUPS, SSH i escriptoris remots en un entorn simulat d’empresa.
-
-4. **Consolidar competències de disseny digital**  
-   Prototipatge funcional en Figma amb focus en corporatiu i ecommerce inicial.
-
-5. **Iniciar la gestió professional de versions**  
-   Primer contacte amb Git i repositoris locals utilitzant Visual Studio Code.
-
-6. **Incorporar la mirada sostenible en el treball tècnic**  
-   Economia circular, consum responsable i reflexió sobre l’impacte de la tecnologia.
-
-7. **Utilitzar metodologies d’organització i gestió del flux de treball**  
-   Tauler Kanban per a planificació, assignació i seguiment de tasques.
-
-8. **Millorar competències transversals essencials**  
-   Autonomia, comunicació, treball en equip, documentació rigorosa i resolució de problemes complexos.
-
-## 🚀 El repte
-EverPia està en ple creixement i necessita reforçar la seva infraestructura per:
-
-- Escalar serveis.
-- Millorar la resiliència.
-- Oferir noves solucions digitals als clients.
-
-Nosaltres, com a equip júnior, hem hagut de:
-
-### Bloc tècnic
-- Crear i restaurar imatges amb **Rescuezilla**.
-- Proposar estratègies de **backup** per a equips Windows.
-- Desplegar un **servidor NFS** amb i sense LDAP.
-- Implementar un **servidor d’impressió CUPS**.
-- Preparar i provar solucions d’**accés remot**.
-
-### Bloc creatiu i organitzatiu
-- Dissenyar un **prototip corporatiu + ecommerce inicial** amb Figma.
-- Iniciar l’ús de **Git** amb repositoris locals i commits coherents.
-- Documentar processos i decisions amb **qualitat professional**.
-- Mantenir un **Kanban actualitzat** amb seguiment real.
-- Integrar la **mirada sostenible** dins del projecte.
-
-## 📦 Producte final
-Al final del projecte, hem lliurat una **carpeta professional completa** amb:
-
-- Imatge de restauració funcional amb prova documentada.
-- Informe comparatiu de solucions de backup i proposta final.
-- Servidor NFS operatiu i documentat.
-- Servidor CUPS amb proves.
-- Informe complet d’accés remot amb valoració de solucions.
-- Prototip Figma corporatiu + ecommerce inicial.
-- Repositori Git organitzat amb commits coherents.
-- Tauler Kanban complet i actualitzat.
-- Reflexió en clau de sostenibilitat i economia circular.
+Aquest projecte és la nostra **carta de presentació professional**. Hem hagut de donar resposta a encàrrecs reals dins l’ecosistema d’EverPia: gestió d’emergències, backup i recuperació, implementació de serveis d’accés remot, desplegament de servidors NFS i CUPS, disseny d’un e-commerce amb Figma, i treball col·laboratiu amb GitHub mitjançant forks i pull requests.
 
 ---
 
-## Enllaços a les carpetes
+## 📌 Índex
 
-### Tasques
+1. [Descripció del projecte](#-descripció-del-projecte)
+2. [Metodologia de treball](#-metodologia-de-treball)
+3. [Tasques realitzades](#-tasques-realitzades)
+4. [Productes finals](#-productes-finals)
+5. [Estructura del repositori](#-estructura-del-repositori)
+6. [Tecnologies i eines](#-tecnologies-i-eines)
+7. [Aprenentatges clau](#-aprenentatges-clau)
+8. [Competències treballades](#-competències-treballades)
+9. [Enllaços d’interès](#-enllaços-dinterès)
+10. [Autor](#-autor)
 
-[Tasca 1](tasca01) : DRP: còpies de seguretat. Estudi cas client (treball cooperatiu)
+---
 
-[Tasca 2](tasca02) : DPR: còpies de seguretat. Cas pràctic
+## 📋 Descripció del projecte
 
-[Tasca 3](tasca03) : Pla de recuperació davant desastres: imatges del sistema
+**EverPia 3** és la culminació de la nostra experiència a la consultora. Ens enfrontem a reptes tècnics i organitzatius que integren tots els mòduls del curs: Seguretat Informàtica (0226), Serveis de Xarxa (0227), Sistemes Operatius en Xarxa (0224), Aplicacions Web (0228), Sostenibilitat (1708), Itinerari d’Ocupabilitat (1710) i Projecte Intermodular (1713).
 
-[Tasca 4](tasca04) : Accés remot
+El projecte s’estructura en quatre setmanes i ens posa en el rol de tècnics que han de:
+- **Garantir la resiliència del sistema** mitjançant plans de còpies de seguretat (DRP) i imatges de recuperació.
+- **Desplegar serveis corporatius** com NFS (servidor de fitxers), CUPS (servidor d’impressió) i accés remot (SSH, RDP, eines d’assistència).
+- **Treballar col·laborativament** amb GitHub utilitzant forks, branques i pull requests.
+- **Dissenyar un prototip d’e-commerce** complet (Landing Page + Checkout) amb Figma i presentar-lo professionalment al client.
+- **Reflexionar sobre sostenibilitat** aplicant criteris d’economia circular al sector TIC.
 
-[Tasca 5](tasca05) : Accés Remot. Connexió via SSH (tasca individual)
+---
 
-[Tasca 6](tasca06) : Accés remot. Escriptori remot (RDP) (tasca individual)
+## 🧭 Metodologia de treball
 
-[Tasca 7](tasca07) : Accés remot. Serveis d’assistència remota (tasca en parelles)
+Tot el projecte s’ha gestionat amb la metodologia **Kanban** mitjançant **Microsoft Planner**, amb columnes: *Backlog, Per fer, En curs, En revisió, Fet*. Cada setmana es fa una revisió de l’estat del tauler per part del professorat.
 
-[Tasca 8](tasca08) : Auditoria de Qualitat i Estandardització de Servidors (tasca individual)
+🔗 **Enllaç al tauler Kanban del projecte (P03):**  
+[https://planner.cloud.microsoft/webui/v1/plan/AHhl8IcsL0eMlXGDYdz3bpYACCHz](https://planner.cloud.microsoft/webui/v1/plan/AHhl8IcsL0eMlXGDYdz3bpYACCHz?tid=c7b5981a-7820-4ac8-ae65-03515ea81317)
 
-[Tasca 9](tasca09) : Servidor fitxers Linux. NFS (tasca individual)
+---
 
-[Tasca 10](tasca10) : Servidor impressió Linux. CUPS (tasca individual)
+## ✅ Tasques realitzades
 
-[Tasca 11](tasca11) : Introducció a Figma: nocions bàsiques de disseny d’interfícies
+A continuació es mostren les principals tasques desenvolupades, extretes del document d’instruccions:
 
-[Tasca 12](tasca12) : Fonaments del Disseny Web Comercial: Landing Page + Procés de Checkout
+| ID | Tasca | Descripció | Tipus |
+|----|-------|-------------|-------|
+| T00 | Presentació del projecte i creació del Kanban i el repositori | Creació del Planner i repositori GitHub inicial. | Grup |
+| T01 | DRP: còpies de seguretat. Estudi cas client | Anàlisi d’un cas real (Muntatges i Serveis Tècnics SL) i definició d’una política de còpies (regla 3-2-1). | Cooperatiu (1-2-4) |
+| T02 | DRP: còpies de seguretat. Cas pràctic | Implementació de còpies amb Duplicati (Windows) i Duplicity + cron (Linux). | Individual |
+| T03 | Pla de recuperació davant desastres: imatges del sistema | Comparativa d’eines (comercials vs comunitat) i creació/restauració d’imatges amb Rescuezilla. | Individual |
+| T04 | Accés remot (teoria) | Introducció als mètodes d’accés remot (SSH, RDP, assistència). Prova de validació. | Grup |
+| T05 | Accés remot. Connexió via SSH | Guia d’ús de SSH des de Linux i Windows, generació de claus públiques/privades. | Individual |
+| T06 | Accés remot. Escriptori remot (RDP) | Configuració de RDP a Windows i Zorin OS, connexió entre diferents SO. | Individual |
+| T07 | Accés remot. Serveis d’assistència remota | Anàlisi comparativa de TeamViewer, AnyDesk, Google Remote Desktop i RustDesk. Creació de guies per a tècnic i client. | Parelles |
+| T08 | Auditoria de Qualitat i Estandardització de Servidors (SOP) | Pràctica de configuració estàndard d’Ubuntu Server (xarxa, actualitzacions, permisos) i prova pràctica. | Individual |
+| T09 | Servidor fitxers Linux. NFS | Configuració d’un servidor NFSv3 i un client Linux. Control d’accés mitjançant exports i permisos. | Individual |
+| T10 | Servidor impressió Linux. CUPS | Instal·lació de CUPS, impressora virtual cups-pdf, configuració web i proves des de client Zorin. | Individual |
+| T11 | Introducció a Figma | Aprenentatge de les eines bàsiques de Figma per al disseny d’interfícies. | Individual |
+| T12 | Fonaments del Disseny Web Comercial | Classes magistrals sobre Landing Page i procés de Checkout. | Grup |
+| T13 | Disseny d’un E-commerce en Figma | Creació d’un prototip navegable complet (Landing Page + Checkout) per a un producte assignat. | Parelles |
+| T14 | Sostenibilitat. Prova escrita | Examen de conceptes de sostenibilitat i ODS. | Individual |
+| T15 | Com de circular és la meva família professional? | Reflexió sobre l’economia circular aplicada al sector informàtic. | Individual |
+| T16 | Crea el teu pla d’empresa TECH | Estudi de mercat, segmentació, màrqueting mix, i vídeo final (projecte emprenedor). | Grup |
 
-[Tasca 13](tasca13) : Disseny d’un E-commerce en Figma (Landing Page + Checkout)
+---
 
-[Tasca 14](tasca14) : Sostenibilitat. Prova Escrita - 1h
+## 🏁 Productes finals
 
-[Tasca 15](tasca15) : Com de circular és la meva família professional?
+Els productes avaluables del projecte són quatre. Cada un està documentat dins la seva carpeta corresponent al repositori.
 
-### Projectes finals
+| Codi | Nom del producte | Enllaç a la carpeta |
+|------|------------------|---------------------|
+| **P01** | GitHub. Treballant de forma col·laborativa: forks i pull request | [`Producto01`](./Producto01) |
+| **P02** | Presentació i Projecció de la Maqueta web al Client | [`Producto02`](./Producto02) |
+| **P03** | Kanban del projecte | [`Producto03`](./Producto03) |
+| **P04** | Fitxes d’Economia Circular | [`Producto04`](./Producto04) |
 
-[Projecte 1](projecte01) : GitHub. Treballant de forma col·laborativa: forks i pull request.
+> **Nota:** Les carpetes `Producto01` a `Producto04` contenen els seus respectius README.md amb la descripció detallada i evidències.
 
-[Projecte 2](projecte02) : Presentació i Projecció de la Maqueta web al Client
+---
 
-[Projecte 3](projecte03) : Kanban del projecte
+## 📁 Estructura del repositori
 
-[Projecte 4](projecte04) : Fitxes d’Economia Circular
+El repositori està organitzat de la següent manera (segons la imatge proporcionada):
 
+```
+Projecte-04-Consultoria-EverPia-3/
+│
+├── README.md                    # Aquest fitxer
+│
+├── Producto01/                  # P01 – Forks i pull requests
+├── Producto02/                  # P02 – Presentació maqueta Figma
+├── Producto03/                  # P03 – Kanban del projecte
+├── Producto04/                  # P04 – Fitxes d’Economia Circular
+│
+├── tasca01/                     # DRP estudi cas client (política 3-2-1)
+├── tasca02/                     # DRP pràctic (Duplicati, Duplicity, cron)
+├── tasca03/                     # Imatges del sistema (Rescuezilla)
+├── tasca04/                     # Accés remot (teoria)
+├── tasca05/                     # SSH
+├── tasca06/                     # RDP
+├── tasca07/                     # Assistència remota (comparativa i guies)
+├── tasca08/                     # Auditoria i estandardització (SOP)
+├── tasca09/                     # NFS
+├── tasca10/                     # CUPS
+├── tasca11/                     # Figma bàsic
+├── tasca12/                     # Fonaments Landing + Checkout
+├── tasca13/                     # E-commerce en Figma
+├── tasca14/                     # Sostenibilitat (prova escrita)
+├── tasca15/                     # Economia circular
+└── tasca16/                     # Pla d’empresa TECH (dossier + vídeo)
+```
 
-Aquest conjunt de productes constitueix **la millor prova del nostre progrés** i del nostre futur potencial com a professionals IT.
+Tota la documentació tècnica està redactada en **Markdown**, amb imatges a subcarpetes `img` i text alternatiu per a l’accessibilitat.
+
+---
+
+## 🛠️ Tecnologies i eines utilitzades
+
+- **Metodologia àgil:** Kanban amb Microsoft Planner.
+- **Control de versions:** Git i GitHub (forks, pull requests, branques).
+- **Backup i recuperació:** Duplicati (Windows), Duplicity + cron (Linux), Rescuezilla (imatges de sistema).
+- **Accés remot:** SSH (clau pública/privada), RDP (Windows i Zorin), TeamViewer, AnyDesk, Google Remote Desktop, RustDesk.
+- **Servidors Linux:** NFS (Network File System), CUPS (impressió), configuració estàndard (SOP).
+- **Disseny i prototipat:** Figma (landing page, checkout, prototip navegable).
+- **Sostenibilitat:** Economia circular, ODS, criteris ASG.
+- **Emprenedoria:** Estudi de mercat, segmentació, màrqueting mix, vídeo promocional.
+
+---
+
+## 💡 Aprenentatges clau
+
+- **Dominar el flux de treball professional de GitHub:** fer un fork d’un repositori central, crear una branca, obrir una pull request i fer-ne la revisió com a Team Leader. Aquesta habilitat és essencial en entorns col·laboratius.
+- **Implementar un pla de còpies de seguretat (DRP):** dissenyar una política 3-2-1, utilitzar Duplicati per a còpies al núvol (Google Drive) i Duplicity amb cron per a servidors Linux.
+- **Crear i restaurar imatges de sistema amb Rescuezilla:** comparativa d’eines comercials i de comunitat, i elaboració d’una guia tècnica per a la restauració ràpida de servidors.
+- **Configurar serveis d’accés remot segurs:** SSH (amb clau pública/privada) i RDP (des de Windows i Linux). Avaluar eines d’assistència remota i crear guies per a tècnics i clients.
+- **Desplegar un servidor NFS i un servidor CUPS:** compartir directoris i impressores en xarxa, controlar permisos amb `/etc/exports` i la interfície web de CUPS.
+- **Dissenyar un prototip d’e-commerce professional amb Figma:** construir una landing page completa (capçalera, hero, productes, testimonis, peu) i un procés de checkout navegable (cistella, adreça, pagament, confirmació). Incorporar bones pràctiques d’UX i usabilitat.
+- **Presentar el prototip davant del client:** justificar decisions de disseny, explicar el procés de compra i respondre preguntes amb professionalitat.
+- **Aplicar l’economia circular al sector TIC:** reflexionar sobre la circularitat de la família professional d’informàtica i proposar accions concretes.
+
+---
+
+## 🧰 Competències treballades
+
+- **DRP i còpies de seguretat:** seleccionar estratègies de còpia, realitzar còpies de seguretat amb diferents eines i mitjans, crear i restaurar imatges de sistema.
+- **Accés remot:** instal·lar i configurar serveis SSH i RDP, utilitzar eines d’assistència remota, i documentar procediments per a tècnics i clients.
+- **Serveis compartits:** configurar servidors NFS (fitxers) i CUPS (impressió), controlar permisos i nivells de seguretat.
+- **Estandardització de servidors:** aplicar un protocol de configuració bàsica (SOP) en Ubuntu Server (xarxa, actualitzacions, usuaris, permisos).
+- **Disseny web i UX:** crear prototips navegables amb Figma, justificar decisions de disseny, presentar solucions comercials.
+- **Treball col·laboratiu amb Git:** fer forks, branques, pull requests i revisions de codi.
+- **Sostenibilitat i economia circular:** identificar aspectes ASG, proposar accions per a un model de negoci circular.
+- **Emprenedoria:** realitzar un estudi de mercat, segmentar, definir màrqueting mix i comunicar el projecte en vídeo.
+
+---
+
+## 🔗 Enllaços d’interès
+
+- 👤 **Perfil de GitHub:** [github.com/guillembarjuan](https://github.com/guillembarjuan)
+- 📌 **Tauler Kanban (Planner) – P03:** [Accedir al Planner del Projecte 04](https://planner.cloud.microsoft/webui/v1/plan/AHhl8IcsL0eMlXGDYdz3bpYACCHz?tid=c7b5981a-7820-4ac8-ae65-03515ea81317)
+- 🧩 **Repositori base per al P01 (EverPia-Onboarding):** [https://github.com/SMX2n/EverPia-Onboarding](https://github.com/SMX2n/EverPia-Onboarding)
+- 📘 **Guia de l’activitat P01:** [https://github.com/SMX2n/Projecte04-GuiaGitHub](https://github.com/SMX2n/Projecte04-GuiaGitHub)
+- 🎨 **Prototip Figma (P02) – Game Station:** [Enllaç al prototip](https://www.figma.com/proto/aS74YmYB73ZMFtaqKFW1fU/Game-Station?node-id=1-2&p=f&t=mtvFoJ5SeLSZFvOO-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2)
+- 📂 **Carpeta P01 (GitHub col·laboratiu):** [`./Producto01`](./Producto01)
+- 📂 **Carpeta P02 (Presentació Figma):** [`./Producto02`](./Producto02)
+- 📂 **Carpeta P03 (Kanban):** [`./Producto03`](./Producto03)
+- 📂 **Carpeta P04 (Economia circular):** [`./Producto04`](./Producto04)
+
+---
+
+## 👤 Autor
+
+**Guillem Barjuan Alonso** – CFGM SMX  
+Curs 2025-2026
+
+---
+
+*Aquest projecte demostra que després de tres projectes intensos a EverPia, hem passat de ser aprenents a professionals capaços de gestionar emergències, desplegar serveis, dissenyar solucions digitals i treballar en equip amb eines de codi. Som els herois anònims del backend, i aquesta carpeta professional és la prova del nostre valor.*
