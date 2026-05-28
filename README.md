@@ -77,12 +77,12 @@ Els productes avaluables del projecte són quatre. Cada un està documentat dins
 
 | Codi | Nom del producte | Enllaç a la carpeta |
 |------|------------------|---------------------|
-| **P01** | GitHub. Treballant de forma col·laborativa: forks i pull request | [`Producto01`](./Producto01) |
-| **P02** | Presentació i Projecció de la Maqueta web al Client | [`Producto02`](./Producto02) |
-| **P03** | Kanban del projecte | [`Producto03`](./Producto03) |
-| **P04** | Fitxes d’Economia Circular | [`Producto04`](./Producto04) |
+| **P01** | GitHub. Treballant de forma col·laborativa: forks i pull request | [`Producte01`](./Producte01) |
+| **P02** | Presentació i Projecció de la Maqueta web al Client | [`Producte02`](./Producte02) |
+| **P03** | Kanban del projecte | [`Producte03`](./Producte03) |
+| **P04** | Fitxes d’Economia Circular | [`Producte04`](./Producte04) |
 
-> **Nota:** Les carpetes `Producto01` a `Producto04` contenen els seus respectius README.md amb la descripció detallada i evidències.
+> **Nota:** Les carpetes `Producte01` a `Producte04` contenen els seus respectius README.md amb la descripció detallada i evidències.
 
 ---
 
@@ -95,10 +95,10 @@ Projecte-04-Consultoria-EverPia-3/
 │
 ├── README.md                    # Aquest fitxer
 │
-├── Producto01/                  # P01 – Forks i pull requests
-├── Producto02/                  # P02 – Presentació maqueta Figma
-├── Producto03/                  # P03 – Kanban del projecte
-├── Producto04/                  # P04 – Fitxes d’Economia Circular
+├── Producte01/                  # P01 – Forks i pull requests
+├── Producte02/                  # P02 – Presentació maqueta Figma
+├── Producte03/                  # P03 – Kanban del projecte
+├── Producte04/                  # P04 – Fitxes d’Economia Circular
 │
 ├── tasca01/                     # DRP estudi cas client (política 3-2-1)
 ├── tasca02/                     # DRP pràctic (Duplicati, Duplicity, cron)
@@ -168,10 +168,10 @@ Tota la documentació tècnica està redactada en **Markdown**, amb imatges a su
 - 🧩 **Repositori base per al P01 (EverPia-Onboarding):** [https://github.com/SMX2n/EverPia-Onboarding](https://github.com/SMX2n/EverPia-Onboarding)
 - 📘 **Guia de l’activitat P01:** [https://github.com/SMX2n/Projecte04-GuiaGitHub](https://github.com/SMX2n/Projecte04-GuiaGitHub)
 - 🎨 **Prototip Figma (P02) – Game Station:** [Enllaç al prototip](https://www.figma.com/proto/aS74YmYB73ZMFtaqKFW1fU/Game-Station?node-id=1-2&p=f&t=mtvFoJ5SeLSZFvOO-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A2)
-- 📂 **Carpeta P01 (GitHub col·laboratiu):** [`./Producto01`](./Producto01)
-- 📂 **Carpeta P02 (Presentació Figma):** [`./Producto02`](./Producto02)
-- 📂 **Carpeta P03 (Kanban):** [`./Producto03`](./Producto03)
-- 📂 **Carpeta P04 (Economia circular):** [`./Producto04`](./Producto04)
+- 📂 **Carpeta P01 (GitHub col·laboratiu):** [`./Producte01`](./Producte01)
+- 📂 **Carpeta P02 (Presentació Figma):** [`./Producte02`](./Producte02)
+- 📂 **Carpeta P03 (Kanban):** [`./Producte03`](./Producte03)
+- 📂 **Carpeta P04 (Economia circular):** [`./Producte04`](./Producte04)
 
 ---
 
